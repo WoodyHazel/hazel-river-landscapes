@@ -11,7 +11,7 @@
 </head>
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-light">
+  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <a href="#" class="navbar-brand m-0">
         <span class="fw-bold fs-4 text-success"><i class="fas fa-seedling fs-1 me-1"></i>Hazel River Landscapes</span>
@@ -22,7 +22,7 @@
       <div class="collapse navbar-collapse justify-content-end align-center"  id="main-nav">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a href="#about" class="nav-link border-bottom border-top mt-2">About</a>
+            <a href="#about" class="nav-link border-bottom">About</a>
           </li>
           <li class="nav-item">
             <a href="#services" class="nav-link border-bottom">Services</a>
@@ -42,32 +42,44 @@
   </nav>
   <section id="home">
     <div class="container-fluid">
-      <div class="card bg-dark text-white h-100">
-        <img src="https://images.unsplash.com/photo-1596086221164-c8a4cac55e27?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2874&q=80" class="card-img opacity-50" alt="...">
-        <div class="card-img-overlay d-flex flex-column align-items-center justify-content-center">
-          <h1 class="card-title display-md-2">Welcome</h1>
-          <h2 class="display-md-4 pb-md-4">to</h2>
-          <h2 class="display-md-4 text-success bg-light py-2 px-4 rounded-pill">Hazel River Landscapes</h2>
-          <p class="card-text ">We are a landscaping company serving northern Virginia.</p>
-          <button class="btn btn-lg btn-outline-warning">Contact Us</button>
-        </div>
+      <div id="home-bg" class="d-flex flex-column align-items-center justify-content-center text-light">
+        <h1 class="display-1">Welcome</h1>
+        <h3 class="display-4">to</h3>
+        <h2 class="display-3 px-4 py-2 text-center bg-light text-success fw-100 m-4 rounded-pill">Hazel River Landscapes</h2>
+        <p class="m-4 fs-4 text-center">We are a residential landscaping company serving northern Virginia.</p>
+        <button class="btn btn-lg btn-outline-warning fs-2">Contact Us</button>
       </div>
     </div>
   </section>
   <section id="about">
-
     <div class="card m-4">
-      <div class="row g-0">
-        <div class="col-md-8">
+      <div class="row">
+        <div class="col-md-8 pe-0">
           <div class="card-header text-center fw-bold fs-1">About Us</div>
-          <div class="card-body m-4">
+          <div class="card-body m-2 m-md-4">
             <h5 class="card-title">Hi, I'm Jeff.</h5>
             <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ipsam! Sapiente eum cumque velit illo rerum tenetur quibusdam ipsam dolorem.</p>
-            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, aperiam dolor. Blanditiis odio quae itaque odit beatae, cupiditate inventore, eos fugiat provident aliquam temporibus vitae possimus? Impedit ipsum numquam aut magnam nisi iure labore atque. Nesciunt aut saepe ex sequi!</p>
+            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ipsam! Sapiente eum cumque velit illo rerum tenetur quibusdam ipsam dolorem.</p>
           </div>
         </div>
-        <div class="col-md-4">
-          <img src="https://images.unsplash.com/photo-1535643302794-19c3804b874b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" class="img-fluid rounded-end" alt="...">
+        <div class="col-md-4 ps-0">
+          <img src="https://images.unsplash.com/photo-1535643302794-19c3804b874b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" class="img-fluid rounded" alt="...">
+        </div>
+      </div>
+      <div class="row align-items-center justify-content-center flex-column">
+        <div class="col text-center">
+          <h5 class="card-title pt-4">We love buiding and keeping beautiful gardens!</h5>
+          <p class="text-left pt-4">View the gallery to see our work:
+          </p>
+           <button class="btn btn-lg bg-success text-light mb-4">Project Gallery</button>
+        </div>
+        <div class="col text-center">
+          <p>- or -</p>
+        </div>
+        <div class="col text-center">
+          <p class="text-left">Get started on your project:
+          </p>
+           <button class="btn btn-lg bg-warning text-light mb-4">Contact Us</button>
         </div>
       </div>
     </div>
@@ -75,13 +87,40 @@
   <section id="services">
     <div class="container">
       <h1 class="text-center m-4">Services</h1>
-      <div class="row g-2 align-items-center justify-content-center">
-        <div class="col-md-8">
+      <div class="row mb-4 p-2">
+        <div class="col-md-4">
           <div class="card text-center">
             <div class="card-body">
+              <h5 class="card-title m-0"><i class="fas fa-drafting-compass display-1"></i></h5>
+              <h6 class="card-subtitle text-muted mt-2">Design</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-tools display-1"></i></h5>
+              <h6 class="card-subtitle text-muted mt-2">Build</h6>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-center">
+            <div class="card-body">
+              <h5 class="card-title"><i class="fas fa-cut display-1"></i></h5>
+              <h6 class="card-subtitle text-muted mt-2">Maintain</h6>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row g-4 align-items-center justify-content-center">
+        <div class="col-md-8">
+          <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" class="card-img-top" alt="...">
+            <div class="card-body">
               <h5 class="card-title">Gardening</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Let's build the garden you've always wanted!</p>
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -114,17 +153,15 @@
                   </div>
                 </div>
               </div>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
         <div class="col-md-8">
           <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1602364481046-a5c6c3629932?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Tree Work</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Keep your trees healthy and safe!</p>
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -139,7 +176,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingTwo">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                      Removal
+                      Planting
                     </button>
                   </h2>
                   <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
@@ -149,7 +186,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Maintainence
+                      Removal
                     </button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -157,17 +194,15 @@
                   </div>
                 </div>
               </div>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>
         <div class="col-md-8">
           <div class="card text-center">
+            <img src="https://images.unsplash.com/photo-1598963489372-f224a80c7280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1342&q=80" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">Stone Work</h5>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-text">Add stone features to your garden!</p>
               <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingOne">
@@ -192,7 +227,7 @@
                 <div class="accordion-item">
                   <h2 class="accordion-header" id="flush-headingThree">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                      Maintainence
+                      Retaining Walls
                     </button>
                   </h2>
                   <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
@@ -200,8 +235,6 @@
                   </div>
                 </div>
               </div>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
             </div>
           </div>
         </div>

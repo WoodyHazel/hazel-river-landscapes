@@ -10,31 +10,30 @@
   <title>Hazel River Landscapes</title>
 </head>
 <body>
-
   <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
     <div class="container-fluid">
       <a href="#" class="navbar-brand m-0">
         <span class="fw-bold fs-4 text-success"><i class="fas fa-seedling fs-1 me-1"></i>Hazel River Landscapes</span>
       </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler bg-white shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse justify-content-end align-center"  id="main-nav">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a href="#about" class="nav-link border-bottom">About</a>
+      <div class="collapse navbar-collapse justify-content-end"  id="main-nav">
+        <ul class="navbar-nav text-center fs-5">
+          <li class="nav-item m-2">
+            <a href="#about" class="nav-link border-bottom border-success text-dark py-1">About</a>
           </li>
-          <li class="nav-item">
-            <a href="#services" class="nav-link border-bottom">Services</a>
+          <li class="nav-item m-2">
+            <a href="#services" class="nav-link border-bottom border-success text-dark py-1">Services</a>
           </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link border-bottom">Contact</a>
+          <li class="nav-item m-2">
+            <a href="#contact" class="nav-link border-bottom border-success text-dark py-1">Contact</a>
           </li>
-          <li class="nav-item">
-            <a href="#gallery" class="nav-link border-bottom">Gallery</a>
+          <li class="nav-item m-2">
+            <a href="#gallery" class="nav-link border-bottom border-success text-dark py-1">Gallery</a>
           </li>
-          <li class="nav-item">
-            <a href="#reviews" class="nav-link border-bottom">Reviews</a>
+          <li class="nav-item m-2">
+            <a href="#reviews" class="nav-link border-bottom border-success text-dark py-1">Reviews</a>
           </li>
         </ul>
       </div>
@@ -45,7 +44,7 @@
       <div id="home-bg" class="d-flex flex-column align-items-center justify-content-center text-light">
         <h1 class="display-1">Welcome</h1>
         <h3 class="display-4">to</h3>
-        <h2 class="display-3 px-4 py-2 text-center bg-light text-success fw-100 m-4 rounded-pill">Hazel River Landscapes</h2>
+        <h2 id="logo" class="display-3 px-4 py-2 text-center text-success fw-100 m-4 rounded-pill shadow-lg">Hazel River Landscapes</h2>
         <p class="m-4 fs-4 text-center">We are a residential landscaping company serving northern Virginia.</p>
         <button class="btn btn-lg btn-outline-warning fs-2">Contact Us</button>
       </div>
@@ -54,16 +53,15 @@
   <section id="about">
     <div class="card m-4">
       <div class="row">
-        <div class="col-md-8 pe-0">
-          <div class="card-header text-center fw-bold fs-1">About Us</div>
+        <div class="col-md-8">
+          <div class="card-header text-center fw-bold fs-1">About</div>
           <div class="card-body m-2 m-md-4">
-            <h5 class="card-title">Hi, I'm Jeff.</h5>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ipsam! Sapiente eum cumque velit illo rerum tenetur quibusdam ipsam dolorem.</p>
-            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, ipsam! Sapiente eum cumque velit illo rerum tenetur quibusdam ipsam dolorem.</p>
+            <h5 class="card-title fst-italic"><span class="display-3 me-1">Hi,</span> <span class="display-5">I'm Jeff.</span></h5>
+            <p class="card-text lh-lg">I am the founder and owner of Hazel River Landscapes. I have over 30 years of experience as a landscaper. I specialize in small to medium scale residential garden design.</p>
           </div>
         </div>
-        <div class="col-md-4 ps-0">
-          <img src="https://images.unsplash.com/photo-1535643302794-19c3804b874b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" class="img-fluid rounded" alt="...">
+        <div class="col-md-4">
+          <div id="profile-pic"></div>
         </div>
       </div>
       <div class="row align-items-center justify-content-center flex-column">

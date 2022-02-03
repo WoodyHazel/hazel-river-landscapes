@@ -7,229 +7,238 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" type="image/jpg" href="media/imgs/HAZEL RIVER-icon.png">
   <title>Hazel River Landscapes</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
-    <div class="container-fluid">
-      <a href="#" class="navbar-brand m-0">
-        <span class="fw-bold fs-4 text-success"><i class="fas fa-seedling fs-1 me-1"></i>Hazel River Landscapes</span>
-      </a>
-      <button class="navbar-toggler bg-white shadow-sm" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end"  id="main-nav">
-        <ul class="navbar-nav text-center fs-5">
-          <li class="nav-item m-2">
-            <a href="#about" class="nav-link border-bottom border-success text-dark py-1">About</a>
-          </li>
-          <li class="nav-item m-2">
-            <a href="#services" class="nav-link border-bottom border-success text-dark py-1">Services</a>
-          </li>
-          <li class="nav-item m-2">
-            <a href="#contact" class="nav-link border-bottom border-success text-dark py-1">Contact</a>
-          </li>
-          <li class="nav-item m-2">
-            <a href="#gallery" class="nav-link border-bottom border-success text-dark py-1">Gallery</a>
-          </li>
-          <li class="nav-item m-2">
-            <a href="#reviews" class="nav-link border-bottom border-success text-dark py-1">Reviews</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section id="home">
-    <div class="container-fluid">
-      <div id="home-bg" class="d-flex flex-column align-items-center justify-content-center text-light">
-        <h1 class="display-1">Welcome</h1>
-        <h3 class="display-4">to</h3>
-        <h2 id="logo" class="display-3 px-4 py-2 text-center text-success fw-100 m-4 rounded-pill shadow-lg">Hazel River Landscapes</h2>
-        <p class="m-4 fs-4 text-center">We are a residential landscaping company serving northern Virginia.</p>
-        <button class="btn btn-lg btn-outline-warning fs-2">Contact Us</button>
-      </div>
-    </div>
-  </section>
-  <section id="about">
-    <div class="card m-4">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="card-header text-center fw-bold fs-1">About</div>
-          <div class="card-body m-2 m-md-4">
-            <h5 class="card-title fst-italic"><span class="display-3 me-1">Hi,</span> <span class="display-5">I'm Jeff.</span></h5>
-            <p class="card-text lh-lg">I am the founder and owner of Hazel River Landscapes. I have over 30 years of experience as a landscaper. I specialize in small to medium scale residential garden design.</p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div id="profile-pic"></div>
+  <header class="main-header">
+    <nav class="navbar navbar-dark navbar-expand-md position-absolute top-0 start-0 w-100">
+      <div class="container-fluid">
+        <a href="#home" class="navbar-brand">
+          <img class="header-logo" src="./media/imgs/HAZEL RIVER-logo.png" alt="Hazel River Landscapes Logo">
+        </a>
+        <button class="navbar-toggler border border-success border-1" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fs-2"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end rounded"  id="main-nav">
+          <ul class="navbar-nav text-center fs-5">
+            <li class="nav-item my-2">
+              <a href="#about" class="nav-link text-white">About</a>
+            </li>
+            <li class="nav-item my-2">
+              <a href="#services" class="nav-link text-white">Services</a>
+            </li>
+            <li class="nav-item my-2">
+              <a href="#gallery" class="nav-link text-white">Gallery</a>
+            </li>
+            <li class="nav-item my-2">
+              <a href="#reviews" class="nav-link text-white">Reviews</a>
+            </li>
+            <li class="nav-item bg-success rounded m-2">
+              <a href="#contact" class="nav-link text-white">Contact</a>
+            </li>
+          </ul>
         </div>
       </div>
-      <div class="row align-items-center justify-content-center flex-column">
-        <div class="col text-center">
-          <h5 class="card-title pt-4">We love buiding and keeping beautiful gardens!</h5>
-          <p class="text-left pt-4">View the gallery to see our work:
-          </p>
-           <button class="btn btn-lg bg-success text-light mb-4">Project Gallery</button>
-        </div>
-        <div class="col text-center">
-          <p>- or -</p>
-        </div>
-        <div class="col text-center">
-          <p class="text-left">Get started on your project:
-          </p>
-           <button class="btn btn-lg bg-warning text-light mb-4">Contact Us</button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="services">
-    <div class="container">
-      <h1 class="text-center m-4">Services</h1>
-      <div class="row mb-4 p-2">
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-              <h5 class="card-title m-0"><i class="fas fa-drafting-compass display-1"></i></h5>
-              <h6 class="card-subtitle text-muted mt-2">Design</h6>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-              <h5 class="card-title"><i class="fas fa-tools display-1"></i></h5>
-              <h6 class="card-subtitle text-muted mt-2">Build</h6>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card text-center">
-            <div class="card-body">
-              <h5 class="card-title"><i class="fas fa-cut display-1"></i></h5>
-              <h6 class="card-subtitle text-muted mt-2">Maintain</h6>
+    </nav>
+  </header>
 
-            </div>
+  <main>
+    <section id="home">
+      <div class="container-fluid d-flex flex-column align-items-center justify-content-center">
+        <div class="d-flex flex-column align-items-center justify-content-center text-light">
+          <h1 class="display-2">Welcome</h1>
+          <h3 class="display-5">to</h3>
+          <h2 class="mb-5 mt-md-3 text-center text-success d-flex flex-column align-items-center justify-content-center bg-dark bg-opacity-25 rounded-pill px-5 py-3"><span class="spread-md display-1 border-bottom border-success">Hazel River</span><span class="spread-lg">Landscapes</span></h2>
+          <p class="mx-md-5 mb-5 fs-4 text-center text-white lh-lg px-md-5 p-2 bg-dark bg-opacity-25 rounded-pill">We are a residential landscaping company serving northern Virginia for the last 30 years. We offer services to meet all your landscaping needs including garden design and installation, tree pruning and removal, stone patios and walkways, and much more... </p>
+          <div class="d-flex align-items-center text-warning home-contact">
+            <i class="fas fa-arrow-right fs-1 pe-3"></i>
+            <a href="#contact" class="btn btn-lg btn-outline-warning fs-2" role="button">Contact Us</a>
+            <i class="fas fa-arrow-left fs-1 ps-3"></i>
           </div>
         </div>
       </div>
-      <div class="row g-4 align-items-center justify-content-center">
-        <div class="col-md-8">
+    </section>
+    <section id="about" class="bg-warning bg-opacity-10 pb-5">
+      <div class="container-fluid pb-2">
+        <div class="row py-5">
+          <div class="col-sm-12 col-md-8">
+            <h2 class="text-center display-3 py-2 bg-success text-white rounded">About Us</h2>
+            <div class="py-2 px-5">
+              <h3 class="fst-italic fs-1 text-muted py-3"><span class="text-success display-4">Hi, </span>I'm Jeff.</h3>
+              <p class="lh-lg">I am the founder and owner of Hazel River Landscapes. I have over 30 years of experience as a landscaper. It has always been my passion to create beautiful gardens. I take a lot of pride in what I do, and it shows in my work. My specialty is small to medium scale residential garden design.</p>
+              <p class="lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio fuga alias ratione odio irem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, doloribus aspernatur sint soluta consectetur non voluptatem provident sit distinctio debitis minus! Harum pariatur a eos nostrum consectetur impedit repellat.</p>
+            </div>
+          </div>
+          <div class="col-8 m-auto col-md-4">
+            <div class="about-profile-pic rounded"></div>
+          </div>
+        </div>
+        <div class="row px-5 pb-5 border-bottom border-top border-success border-2 rounded-pill justify-content-center">
+          <h3 class="text-center display-4 text-success p-5 fst-italic">We love buiding and maintaining beautiful gardens!</h3>
+          <div class="col-md-5 text-center">
+            <p class="m-0 fs-3 fw-bold text-muted">Get started on your own project</p>
+            <div>
+              <i class="fas fa-chevron-down fs-3 text-warning"></i>
+            </div>
+            <a href="#contact" class="mt-2 btn btn-lg btn-warning text-white" role="button">Contact Us</a>
+          </div>
+          <div class="col-md-1 text-center d-flex align-items-start justify-content-center mt-1">
+            <p class="display-6 text-secondary fs-3 pt-sm-3">- or -</p>
+          </div>
+          <div class="col-md-5 text-center">
+            <p class="m-0 fs-3 fw-bold text-muted">View the gallery to see our work</p>
+            <div>
+              <i class="fas fa-chevron-down fs-3 text-success"></i>
+            </div>
+            <a href="#gallery" class="mt-2 btn btn-lg btn-success text-white" role="button">Project Gallery</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="services" class="py-5 bg-success bg-opacity-10">
+      <div class="text-center">
+        <i class="fas fa-certificate fs-1 text-warning pb-2"></i>
+      </div>
+      <h2 class="text-center display-3 text-warning fw-normal">Our Services</h2>
+      <div class="row d-flex align-items-center justify-content-around gap-4 px-5 py-4">
+        <div class="col-md-2 text-center border border-2 rounded p-2 pt-3 border-success text-success">
+          <div>
+            <i class="fas fa-drafting-compass display-1"></i>
+            <h6 class="mt-3">DESIGN</h6>
+          </div>
+        </div>
+        <div class="col-md-2 text-center border border-2 rounded p-2 pt-3 border-success text-success">
+          <div>
+            <i class="fas fa-tools display-1"></i>
+            <h6 class="mt-3">BUILD</h6>
+          </div>
+        </div>
+        <div class="col-md-2 text-center border border-2 rounded p-2 pt-3 border-success text-success">
+          <div>
+            <i class="fas fa-cut display-1"></i>
+            <h6 class="mt-3">MAINTAIN</h6>
+          </div>
+        </div>
+      </div>
+      <div class="row p-4 g-4">
+        <div class="col-md-4">
           <div class="card text-center">
-            <img src="https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80" class="card-img-top" alt="...">
+            <img src="media/imgs/portrait/erda-estremera-0ZxdAGG4aWU-unsplash.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Gardening</h5>
-              <p class="card-text">Let's build the garden you've always wanted!</p>
-              <div class="accordion accordion-flush" id="accordionFlushExample">
+              <h5 class="card-title spread-sm fs-3">GARDENING</h5>
+              <p class="card-text text-muted">Let's build your dream garden</p>
+              <div class="accordion accordion-flush text-start" id="accordionCard1">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h2 class="accordion-header" id="cardHeading1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card1-1" aria-expanded="false" aria-controls="card1-1">
                       Design
                     </button>
                   </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div id="card1-1" class="accordion-collapse collapse" aria-labelledby="cardHeading1" data-bs-parent="#accordionCard1">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum voluptas repellendus alias modi culpa ex ipsa omnis laudantium autem molestiae itaque, harum quas! Cum doloremque nam magni tempora fugiat hic?</div>
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h2 class="accordion-header" id="cardHeading2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card1-2" aria-expanded="false" aria-controls="card1-2">
                       Installation
                     </button>
                   </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  <div id="card1-2" class="accordion-collapse collapse" aria-labelledby="cardHeading2" data-bs-parent="#accordionCard1">
+                    <div class="accordion-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id repellat, blanditiis, a doloribus repudiandae ad unde facere sunt odit facilis eos? Sed, hic? Et voluptatibus quam optio pariatur! Culpa, vitae!</div>
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <h2 class="accordion-header" id="cardHeading3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card1-3" aria-expanded="false" aria-controls="card1-3">
                       Maintainence
                     </button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div id="card1-3" class="accordion-collapse collapse" aria-labelledby="cardHeading3" data-bs-parent="#accordionCard1">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, natus culpa dolorum error exercitationem numquam consequuntur, labore molestiae, deleniti quod qui! Praesentium optio at, porro voluptatum debitis sit exercitationem ducimus!</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-4">
           <div class="card text-center">
-            <img src="https://images.unsplash.com/photo-1602364481046-a5c6c3629932?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1746&q=80" class="card-img-top" alt="...">
+            <img src="media/imgs/portrait/aaron-burden-Bn2rzIYM53g-unsplash.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Tree Work</h5>
-              <p class="card-text">Keep your trees healthy and safe!</p>
-              <div class="accordion accordion-flush" id="accordionFlushExample">
+              <h5 class="card-title spread-sm fs-3">TREE CARE</h5>
+              <p class="card-text text-muted">Keep your trees healthy and safe</p>
+              <div class="accordion accordion-flush text-start" id="accordionCard2">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h2 class="accordion-header" id="cardHeading1-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card2-1" aria-expanded="false" aria-controls="card2-1">
                       Pruning
                     </button>
                   </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div id="card2-1" class="accordion-collapse collapse" aria-labelledby="cardHeading1-1" data-bs-parent="#accordionCard2">
+                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias modi mollitia dignissimos laudantium cum adipisci maxime sed nam ipsam nostrum enim eaque similique placeat doloremque odit, ratione quas cupiditate molestias?</div>
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h2 class="accordion-header" id="cardHeading1-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card2-2" aria-expanded="false" aria-controls="card2-2">
                       Planting
                     </button>
                   </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  <div id="card2-2" class="accordion-collapse collapse" aria-labelledby="cardHeading1-2" data-bs-parent="#accordionCard2">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur unde ea nam consectetur impedit, sequi ipsam molestiae officia distinctio maiores animi assumenda et, a repudiandae facilis natus quia perspiciatis nulla.</div>
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <h2 class="accordion-header" id="cardHeading1-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card2-3" aria-expanded="false" aria-controls="card2-3">
                       Removal
                     </button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div id="card2-3" class="accordion-collapse collapse" aria-labelledby="cardHeading1-3" data-bs-parent="#accordionCard2">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, ipsum sapiente aspernatur fuga, voluptatibus officiis facere consectetur eligendi eos quod ab, asperiores saepe? Sint maiores nulla laboriosam obcaecati, similique vero!</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-4">
           <div class="card text-center">
-            <img src="https://images.unsplash.com/photo-1598963489372-f224a80c7280?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1342&q=80" class="card-img-top" alt="...">
+            <img src="media/imgs/portrait/frederic-barriol-DIUSDa7lD3M-unsplash.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Stone Work</h5>
-              <p class="card-text">Add stone features to your garden!</p>
-              <div class="accordion accordion-flush" id="accordionFlushExample">
+              <h5 class="card-title spread-sm fs-3">STONE WORK</h5>
+              <p class="card-text text-muted">Add stone features to your garden</p>
+              <div class="accordion accordion-flush text-start" id="accordionCard3">
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  <h2 class="accordion-header" id="cardHeading2-1">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card3-1" aria-expanded="false" aria-controls="card3-1">
                       Patios
                     </button>
                   </h2>
-                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                  <div id="card3-1" class="accordion-collapse collapse" aria-labelledby="cardHeading2-1" data-bs-parent="#accordionCard3">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet voluptatibus maxime, placeat ex necessitatibus saepe suscipit, aliquid, iure eos in. Quo, aspernatur reiciendis sapiente praesentium similique voluptatibus sint veritatis?</div>
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  <h2 class="accordion-header" id="cardHeading2-2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card3-2" aria-expanded="false" aria-controls="card3-2">
                       Walkways
                     </button>
                   </h2>
-                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+                  <div id="card3-2" class="accordion-collapse collapse" aria-labelledby="cardHeading2-2" data-bs-parent="#accordionCard3">
+                    <div class="accordion-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore sunt asperiores rerum laborum ducimus dicta architecto culpa beatae aspernatur laudantium reiciendis nam ad, quas quae qui id reprehenderit cumque. Nemo!</div>
                   </div>
                 </div>
                 <div class="accordion-item">
-                  <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  <h2 class="accordion-header" id="cardHeading2-3">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#card3-3" aria-expanded="false" aria-controls="card3-3">
                       Retaining Walls
                     </button>
                   </h2>
-                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+                  <div id="card3-3" class="accordion-collapse collapse" aria-labelledby="cardHeading2-3" data-bs-parent="#accordionCard3">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, pariatur laborum officiis necessitatibus ex delectus odio officia iste at sint dolore minus, aperiam repudiandae repellat debitis animi sed consequatur eius?</div>
                   </div>
                 </div>
               </div>
@@ -237,142 +246,179 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="contact">
-    <div class="container my-4">
-      <h1 class="text-center mt-4">Contact Us</h1>
-      <p class="text-muted text-center">All fields are required.</p>
-      <form class="bg-success p-4 rounded">
-        <div class="row p-2">
-          <div class="col">
-            <div class="form-floating">
-              <input type="text" class="form-control" id="firstname" placeholder=" " required>
-              <label class="text-center" for="firstname">First Name</label>
+    </section>
+    <section id="contact" class="py-5">
+      <div class="container-fluid py-5">
+        <div class="text-center text-success bg-white w-75 m-auto p-4 rounded-top">
+          <h1>Get In Touch!</h1>
+          <p class="text-secondary text-center m-0">Fill out the form below and we will get back to you within 24 hours</p>
+          <p class="text-dark text-center m-0 pt-2">All fields are required</p>
+        </div>
+        <form class="bg-success px-0 pt-2 pb-4 p-md-4 rounded-bottom w-75 m-auto">
+          <div class="row p-2">
+            <div class="col">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="firstname" placeholder=" " required>
+                <label class="text-center" for="firstname">First Name</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-floating">
+                <input type="text" class="form-control" id="lastname" placeholder=" " required>
+                <label class="text-center" for="lastname">Last Name</label>
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="form-floating">
-              <input type="text" class="form-control" id="lastname" placeholder=" " required>
-              <label class="text-center" for="lastname">Last Name</label>
+          <div class="row p-2">
+            <div class="col">
+              <div class="form-floating">
+                <input type="email" class="form-control" id="email" placeholder=" " required>
+                <label class="text-center" for="email">Email Address</label>
+              </div>
             </div>
           </div>
-
-        </div>
-        <div class="row p-2">
-          <div class="col">
-            <div class="form-floating">
-              <input type="email" class="form-control" id="email" placeholder=" " required>
-              <label class="text-center" for="email">Email Address</label>
+          <div class="row p-2">
+            <div class="col">
+              <div class="form-floating">
+                <input type="tel" class="form-control" id="tel" placeholder=" " required>
+                <label class="text-center" for="tel">Phone Number</label>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="row p-2">
-          <div class="col">
+          <div class="row p-2">
             <div class="form-floating">
-              <input type="tel" class="form-control" id="tel" placeholder=" " required>
-              <label class="text-center" for="tel">Phone Number</label>
+              <textarea class="form-control" placeholder=" " id="message" required></textarea>
+              <label class="ps-4" for="message">Message</label>
             </div>
           </div>
-        </div>
-        <div class="row p-2">
-          <div class="form-floating">
-            <textarea class="form-control" placeholder=" " id="message" required></textarea>
-            <label class="ps-4" for="message">Message</label>
+          <div class="row mt-3">
+            <button type="submit" class="btn btn-warning w-auto m-auto px-5 py-3 fs-5 text-center spread-sm">Send</button>
           </div>
-        </div>
-        <div class="row px-5 mt-3">
-          <button type="submit" class="btn btn-primary">Submit</button>
-        </div>
-        
-      </form>
-    </div>
-  </section>
-
-
-
-
-
-  <section id="gallery" class="py-4">
-    <div class="container bg-light text-dark rounded p-4">
-      <h1 class="text-center p-4">Gallery</h1>
-      <div class="row">
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1550948390-6eb7fa773072?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80" alt="" class="img-fluid h-100 rounded">
-        </div>
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1594498653385-d5172c532c00?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80" alt="" class="img-fluid h-100 rounded">
-        </div>
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1563309570-7f163ebd819b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2235&q=80" alt="" class="img-fluid h-100 rounded">
+        </form>
+      </div>
+    </section>
+    <section id="gallery">
+      <h2 class="text-center display-3 bg-warning bg-opacity-75 my-4 p-4">Project Gallery</h2>
+      <div class="container-fluid">
+        <div class="row g-2">
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/portrait/erda-estremera-0ZxdAGG4aWU-unsplash.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/landscape/bruce-a-ly3djlhy-kw-unsplash.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/landscape/delaney-van-XDVoBD5eTrA-unsplash.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/portrait/studio-dekorasyon-vngzm4P2BTs-unsplash.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/landscape/dimitry-anikin-IfPmy_JmIY8-unsplash.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/landscape/joshua-michaels-ShhtmtDC-zI-unsplash.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/portrait/ben-ashby-hsm-jZyTNeo-unsplash.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/landscape/pexels-pixabay-158228.jpg" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <img class="rounded h-100" src="media/imgs/portrait/jason-leung-css8I1CeCOw-unsplash.jpg" alt="">
+          </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1555585417-3a677e64f183?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="" class="img-fluid h-100 rounded">
-        </div>
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1563714193017-5a5fb60bc02b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80" alt="" class="img-fluid h-100 rounded">
-        </div>
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1558872953-9bd42d7ecc01?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80" alt="" class="img-fluid h-100 rounded">
+    </section>
+    <section id="reviews" class="bg-warning bg-opacity-75 mt-5 pb-5">
+      <div class="container-fluid pb-5 px-5">
+        <h2 class="text-center p-5 text-success">Customer Reviews</h2>
+        <div id="carouselExampleControls" class="m-auto carousel slide bg-success rounded text-light" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center p-5">
+              <div class="w-75 m-auto">
+                <h4 class="pb-2">John Doe</h4>
+                <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                <p class="m-0 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
+              </div>
+            </div>
+            <div class="carousel-item text-center p-5">
+              <div class="w-75 m-auto">
+                <h4 class="pb-2">Mary Jane</h4>
+                <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
+                <p class="m-0 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
+              </div>
+            </div>
+            <div class="carousel-item text-center p-5">
+              <div class="w-75 m-auto">
+                <h4 class="pb-2">Dave Smith</h4>
+                <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+                <p class="m-0 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
+              </div>
+            </div>
+            <div class="carousel-item text-center p-5">
+              <div class="w-75 m-auto">
+                <h4 class="pb-2">Sarah Star</h4>
+                <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
+                <p class="m-0 text-start">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1559320887-dfd4f5f08c55?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1635&q=80" alt="" class="img-fluid h-100 rounded">
-        </div>
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1586191454576-c94c588a8617?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2148&q=80" alt="" class="img-fluid h-100 rounded">
-        </div>
-        <div class="col-md-4 p-2">
-          <img src="https://images.unsplash.com/photo-1591426508941-2f92736f5ff4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" alt="" class="img-fluid h-100 rounded">
+    </section>
+  </main>
+  <footer class="bg-dark position-relative">
+    <div class="row d-flex align-items-start justify-content-center text-white text-center">
+      <div class="col-md-4 order-0">
+        <div class="row">
+          <h3 class="pt-4 fw-light">Quick Links</h3>
+          <div class="col-6 d-flex justify-content-end">
+            <nav>
+              <ul class="p-0">
+                <li class="nav-item"><a class="nav-link text-success" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col-6 d-flex justify-content-start">
+            <nav>
+              <ul class="p-0">
+                <li class="nav-item"><a class="nav-link text-success" href="#services">Services</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link text-success" href="#reviews">Reviews</a></li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
-  <section id="reviews">
-    <div class="container">
-      <h1>Reviews</h1>
-      <div id="carouselExampleControls" class="carousel slide bg-dark rounded m-5 text-light" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active text-center p-5">
-            <h4>John Doe</h4>
-            <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
-          </div>
-          <div class="carousel-item text-center p-5">
-            <h4>Mary Jane</h4>
-            <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></p>
-            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
-          </div>
-          <div class="carousel-item text-center p-5">
-            <h4>Dave Smith</h4>
-            <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
-            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
-          </div>
-          <div class="carousel-item text-center p-5">
-            <h4>Sarah Star</h4>
-            <p>Rating: <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></p>
-            <p class="m-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi necessitatibus quas possimus. Nihil officiis deserunt omnis eaque eveniet doloribus tempora!</p>
-          </div>
+      <div class="col-md-4 order-2">
+        <div class="container px-5">
+          <img class="w-100 pt-2" src="media/imgs/HAZEL RIVER-logo-white.png" alt="">
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <p class="copyright text-center text-success pb-5 m-0">&copy; Hazel River Landscapes 2021. All Rights Reserved.</p>
       </div>
-    </div>
-
-  </section>
-  <footer>
-    <div class="container-fluid bg-dark text-light">
-      <p class="text-center p-4 m-0">&copy; Hazel River Landscapes 2021</p>
-      <p class="text-center pb-4 m-0">All Rights Reserved</p>
+      <div class="col-md-4 order-1">
+        <div class="row">
+          <h3 class="pt-4 fw-light">Social Links</h3>
+          <div class="col fs-1 pt-4 text-success">
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook px-4"></i>
+            <i class="fab fa-instagram"></i>
+          </div>
+          <p class="author position-absolute bottom-0 start-0 pb-2 m-0">Webiste Design and Development by <a target="_blank" href="https://woodyhazel.com/">Woody Hazel</a></p>
+        </div>
+      </div>
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

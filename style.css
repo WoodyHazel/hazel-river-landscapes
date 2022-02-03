@@ -85,6 +85,16 @@ body {
     transform: scale(110%);
   }
 }
+@media only screen and (max-width: 400px) {
+  #home p.home-info {
+    font-size: 0.9rem;
+  }
+}
+@media only screen and (min-width: 401px) {
+  #home p.home-info {
+    font-size: 1.2rem;
+  }
+}
 /* section - about */
 .about-profile-pic {
   height: 100%;
@@ -138,7 +148,7 @@ footer .nav-item:hover {
   font-size: 0.8rem;
 }
 .author {
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 .author a {
   color: rgb(27, 81, 157);

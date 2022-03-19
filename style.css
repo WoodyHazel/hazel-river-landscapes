@@ -50,6 +50,13 @@ body {
 .main-header .nav-link:hover {
   border-bottom: 2px solid white;
 }
+.main-header .contact-btn {
+  border: 1px solid transparent;
+}
+.main-header .contact-btn:hover {
+  border: 1px solid white;
+  border-radius: 0;
+}
 .main-header div.navbar-collapse.show {
   background-color: rgba(26, 26, 26, 0.893);
   transition: background-color 500ms ease-in-out;
@@ -61,7 +68,7 @@ body {
 /* section - home */
 #home {
   height: 100vh;
-  background: url(./media/imgs/landscape/aniston-grace-L3hyEbDk194-unsplash.jpg)
+  background: url(./media/imgs/aniston-grace-L3hyEbDk194-unsplash.jpg)
     center/cover no-repeat;
 }
 #home .container-fluid {
@@ -100,7 +107,7 @@ body {
   height: 100%;
   min-height: 400px;
   background: url(./media/imgs/abstral-official-cyOKLSgkgCE-unsplash.jpg)
-    top/cover no-repeat;
+    top/contain no-repeat;
 }
 .fa-chevron-down {
   animation: slide-down 1s ease-in-out alternate infinite;
@@ -123,7 +130,7 @@ body {
 }
 /* section - contact */
 #contact {
-  background: url(./media/imgs/portrait/annie-spratt-lRcoPGrwkv0-unsplash.jpg)
+  background: url(./media/imgs/annie-spratt-lRcoPGrwkv0-unsplash.jpg)
     center/cover no-repeat;
 }
 /* section - gallery */
@@ -152,5 +159,5 @@ footer .nav-item:hover {
 }
 .author a {
   color: rgb(27, 81, 157);
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
